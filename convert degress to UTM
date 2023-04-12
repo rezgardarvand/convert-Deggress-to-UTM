@@ -1,4 +1,4 @@
-# convert Degress to UTM
+ # convert Degress to UTM
 angle2dec <- function(data) {
   data <- as.character(data)
   x <- do.call(rbind, strsplit(angle, split=' '))# do.call for creat on function againset lapply - strsplit for seperat data based on symbol like " "

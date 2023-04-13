@@ -8,3 +8,4 @@ angle2dec <- function(data) {
   })
   return(x)
 }
+obs_data <- as.data.frame(apply(data, 2L, angle2dec))# with apply function you can convert all column in matrix
